@@ -40,3 +40,39 @@ print(expected_answer == entered_answer)
 print("Is the answer incorrect?")
 print(expected_answer != entered_answer)
 #Strings, numbers are collectively called Types
+#Now we can add two types i.e. strings and numbers using a specially designed formatted string
+notification = (f"You have {6} unread messages")
+print(notification)
+#Conditions, the one that decides whether  run or skip a line of code using If True/False: and adding two spaces before next line to form code block
+newsletter = (f"You have {7} New Friend Request")
+frequency = 6 <= 9
+if True:
+  print(newsletter)
+input_a = "Kolkata"
+input_b = "Delhi"
+print("User Input: Kolkata")
+if input_a == "Kolkata":
+  print("You're on the right track")
+print("User Input: Delhi")
+if input_b != "Kolkata":
+  print("Sorry, You're Going Wrong")
+#simply use a default response for all returning false in If statement, with the help of If/else statement
+input_c = "Mohali"
+if input_a != "Kolkata":
+  print("Yay, You're on Right Track")
+else:
+  print("Sorry You've Got a wrong Path")
+#using elif gives a much more confined and narrowed answers!
+print("Input is Kolkata")
+if input_a == "Kolkata":
+  print("You're Welcome")
+elif input_b == "Delhi":
+  print("Sorry, You're near National Capital")
+else:
+  print("Sorry, You need to check your route")
+#in addition to if/else/elif statement, we may add an alternative conditions to the statement using or/and
+input_d = "Bankura"
+if input_a == "Kolkata" or input_d == "Bankura":
+  print("You're Near")
+if input_c == "Mohali" and input_b == "Delhi":
+  print("You're Going Wrong!")
