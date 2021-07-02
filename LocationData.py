@@ -1,0 +1,5 @@
+country = "India"
+state = "West"
+city_1 = "Kolkata"
+city_2 = "Kharagpur"
+continent = "Asia"
